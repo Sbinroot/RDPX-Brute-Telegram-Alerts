@@ -23,7 +23,7 @@ DEFAULT_PASSWORDS = ["Password123", "Spring2025", "admin", "123456", "welcome"]
 found_users = set()
 lock = Lock()
 
-# Custom Figlet font for hacky banner
+# Custom Figlet font for banner
 fig = Figlet(font='slant')
 
 def banner():
